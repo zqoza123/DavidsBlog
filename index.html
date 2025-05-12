@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My French Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My French Adventure</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content" data-aos="fade-up">
+                <h1>My Month in France</h1>
+                <p>Documenting my study abroad journey through photos and daily updates</p>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-posts">
+            <h2 data-aos="fade-up">Latest Updates</h2>
+            <div class="post-grid">
+                <article class="post-card" data-aos="fade-up">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Paris">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-date">March 15, 2024</div>
+                        <h3>First Day in Paris</h3>
+                        <p>Exploring the beautiful streets of Paris and getting settled into my new home...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="post-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Nice">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-date">March 20, 2024</div>
+                        <h3>Sunny Days in Nice</h3>
+                        <p>Enjoying the beautiful beaches and vibrant atmosphere of the French Riviera...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="post-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Monaco">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-date">March 25, 2024</div>
+                        <h3>Luxury in Monaco</h3>
+                        <p>Experiencing the glamour and sophistication of Monaco...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2 data-aos="fade-up">Photo Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in">
+                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Paris">
+                    <div class="gallery-caption">Paris</div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Nice">
+                    <div class="gallery-caption">Nice</div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Monaco">
+                    <div class="gallery-caption">Monaco</div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1599661046289-e31897846e41?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Caen">
+                    <div class="gallery-caption">Caen</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+            <p>&copy; 2024 My French Adventure. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html> 
